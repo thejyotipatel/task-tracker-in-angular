@@ -1,0 +1,26 @@
+.form-control {
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  max-width: 350px;
+}
+form {
+  margin-bottom: 2em;
+}
+input {
+  border: 2px solid hsla(271, 76%, 53%, 0.3);
+  outline: none;
+  border-radius: 0.3em;
+  padding: 1em;
+  margin: 0.5em 0;
+}
+.checkbox-input {
+  display: block;
+}
+.checkbox {
+  padding: 0;
+  margin: 0;
+  margin-left: 1em;
+  cursor: pointer;
+}
